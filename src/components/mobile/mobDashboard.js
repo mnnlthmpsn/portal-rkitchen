@@ -1,6 +1,6 @@
 import { PlusIcon } from "@heroicons/react/solid"
 import { Link } from "react-router-dom"
-import { useContext } from "react/cjs/react.development"
+import { useContext } from "react"
 import { FoodContext } from "../../contexts/food"
 import FoodCard from "../foodCard"
 import MobNav from "./mobNav"
