@@ -25,7 +25,7 @@ const MobDashboard = () => {
                         ? foods.map(food => (
                             <FoodCard food={food} key={food.id} />
                         ))
-                        : <p className="text-center">No foods added</p>
+                        : <p className="text-center pt-10">No foods added</p>
                 }
             </div>
 
